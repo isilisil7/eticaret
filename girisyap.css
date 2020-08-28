@@ -1,0 +1,104 @@
+* {box-sizing: border-box}
+body {
+  font-family: Verdana, sans-serif;
+  margin:10px;
+}
+
+/* menu bar için css kodları */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A3640;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border:2px solid black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ADD8E6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{    /*li a:hover:not(.activeMenu) */
+  background-color: #C7F9F9;
+  color:black;
+}
+
+.activeMenu {
+  background-color: #ADD8E6;
+  color:#0A3640;
+}
+
+/*menu bar için css kodları bitimi */
+
+
+/*giriş yap ekranı form işlemleri kod başlangıcı */
+
+h1{
+  text-align: center;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid lightblue;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: lightblue;
+  color:  #0A3640;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0A3640;
+  color:  #fff;
+}
+
+.iptal-buton {
+  width: auto;
+  padding: 10px 18px;
+  background-color: lightblue;
+}
+
+.img-class {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 15%;
+  border-radius: 25%;
+}
+
+.tum-form {
+  padding: 16px;
+}
+
+span.sifre {
+  float: right;
+  padding-top: 16px;
+}
+
+/*giriş yasp ekranı kod bitimi */

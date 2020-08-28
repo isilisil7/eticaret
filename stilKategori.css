@@ -1,0 +1,126 @@
+* {box-sizing: border-box}
+body {
+  font-family: Verdana, sans-serif;
+  margin:10px;
+}
+
+/* menu bar için css kodları */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A3640;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  border:2px solid black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ADD8E6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{    /*li a:hover:not(.activeMenu) */
+  background-color: #C7F9F9;
+  color:black;
+}
+
+.activeMenu {
+  background-color: #ADD8E6;
+  color:#0A3640;
+}
+
+/*menu bar için css kodları bitimi */
+
+
+.bosluk {
+  width: 100%;
+  height: 65px;
+}
+
+.btn-stil {
+  text-align: center;
+}
+
+.btn-stil button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.btn-stil .button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.btn-stil .button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.btn-stil .button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+.btn-stil .button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid 02A0BA;
+}
+
+.btn-stil .button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #D65DB1;
+}
+
+.btn-stil .button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid #38bad6;
+}
+
+.btn-stil .button7 {
+  background-color: white;
+  color: black;
+  border: 2px solid #FF773D;
+}
+
+.btn-stil .button8 {
+  background-color: white;
+  color: black;
+  border: 2px solid #845EC2;
+}
+
+.btn-stil .button9 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4FFBDF;
+}
+
+.btn-stil .button10 {
+  background-color: white;
+  color: black;
+  border: 2px solid #BE93FD;
+}

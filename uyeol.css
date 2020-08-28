@@ -1,0 +1,123 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+
+h1{
+  text-align: center;
+}
+
+/* menu bar için css kodları */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A3640;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border:2px solid black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ADD8E6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{    /*li a:hover:not(.activeMenu) */
+  background-color: #C7F9F9;
+  color:black;
+}
+
+.activeMenu {
+  background-color: #ADD8E6;
+  color:#0A3640;
+}
+
+/*menu bar için css kodları bitimi */
+
+
+/*form işlemleri için css kodları başlangıcı */
+
+/* Form kutularını dizayn etme */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: lightblue;
+  outline: none;
+}
+
+hr {
+  border: 2px solid lightblue;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: lightblue;
+  color:  #0A3640;
+  font-size: 17px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border:1px solid  #0A3640;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  background-color: #0A3640;
+  color:white;
+}
+
+.buton-iptal {
+  padding: 14px 20px;
+  background-color: lightblue;
+}
+
+/* iptal ve giris butonlarının eşit boyutta olması için sola yatırma */
+.buton-iptal, .buton-giris {
+  float: left;
+  width: 50%;
+}
+
+/*avatarı biçimlendirme */
+.img-class {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 15%;
+  border-radius: 25%;
+}
+
+
+
+.form-class {
+  padding: 16px;
+}
+
+/* butonları form div'inin içine koymadığımız için aşağıdaki işlemi yapmazsak
+formların çerçevesinin dışına çıkar. */
+.buton-class::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*form işlemleri için css kodları bitimi */

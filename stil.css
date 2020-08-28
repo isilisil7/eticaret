@@ -1,0 +1,155 @@
+* {box-sizing: border-box}
+body {
+  font-family: Verdana, sans-serif;
+  margin:10px;
+}
+
+/* menu bar için css kodları */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A3640;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  border:2px solid black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ADD8E6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{    /*li a:hover:not(.activeMenu) */
+  background-color: #C7F9F9;
+  color:black;
+}
+
+.activeMenu {
+  background-color: #ADD8E6;
+  color:#0A3640;
+}
+
+/*menu bar için css kodları bitimi */
+
+.kategoriButonu button{
+  background-color: lightblue;
+  padding: 14px 610px;
+  font-size: 18px;
+  border-radius: 15px;
+  color:#0A3640;
+}
+
+.kategoriButonu button:hover {
+  box-shadow: 0 14px 20px 0 rgba(192,192,192,0.3), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bosluk {
+  width: 100%;
+    height: 65px;
+}
+
+.bosluk2 {
+  width: 100%;
+    height: 60px;
+}
+
+
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshowun boyutunun ve konumunun belirlenmesi */
+.slideshow-class {
+  max-width: 1312px;
+  position: relative;
+  margin: auto;
+}
+
+/* slideshowun sol ve sağ yanlarındaki iki butonun özelliklerinin tanımlanması */
+.onceki, .sonraki {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* sonraki slayta geçmek için 'sonraki' butonunu sağa yerleştirme */
+.sonraki {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Fareyle sağ ve soldaki 'onceki' ve 'sonraki' butonlarına hover özelliği ekleme */
+.onceki:hover, .sonraki:hover {
+  background-color: #ADD8E6;
+}
+
+/* slideshow un altındaki kaçıncı slaytta olduğumuzu gösteren noktalar*/
+.nokta {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .nokta:hover {
+  background-color: #717171;
+}
+
+/* Fading animasyonu */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*
+ On smaller screens, decrease text size
+@media only screen and (max-width: 300px) {
+  .onceki, .sonraki,.text {font-size: 11px}
+ } */
+
+/*slideshow css kodları bitimi*/
+
+.govde {
+  border: 5px solid lightblue;
+}
