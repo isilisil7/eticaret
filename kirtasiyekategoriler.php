@@ -27,26 +27,41 @@
         </div>
 
 
-<div class="btn-stil">
-        <a href="turkedebiyati.php"><button class="button button1">Türk Edebiyatı</button></a>
-        <a href="dunyaedebiyatı.php"><button class="button button2">Dünya Edebiyatı</button></a>
-        <br>
-        <hr>
-        <a href="bilimkurgu.php.php"><button class="button button3">Bilim-Kurgu</button></a>
-        <a href="polisiye.php"><button class="button button4">Polisiye</button></a>
-        <br>
-        <hr>
-        <a href="tarih.php"><button class="button button5">Tarih</button></a>
+        <div class="baslik">
+          <h2>En Seçkin Ürünler Burada</h2>
+        </div>
 
-        <br>
-        <hr>
-        <a href="populerbilim.php"><button class="button button6">Popüler Bilim</button></a>
-        <a href="bilimderileri.php"><button class="button button7">Bilim Dergileri</button></a>
-        <br>
-        <hr>
-        <a href="felsefe.php"><button class="button button9">Felsefe</button></a>
-        <a href="arastirma.php"><button class="button button10">Araştırma</button></a>
-        <a href="bilgisayarkitapları.php"><button class="button button8">Bilgisayar Kitapları</button></a>
+
+
+
+<div class="btn-stil">
+        <a href="notdefterleri.php"><button class="button button1">Not Defterleri</button></a>
+        <a href="a4boydefterler.php"><button class="button button2">A4 Boy Defterler</button></a>
+        <a href="a5boydefterler.php"><button class="button button3">A5 Boy Defterler</button></a>
+          <br>
+          <hr>
+        <a href="kursunkalem.php"><button class="button button4">Kurşun Kalem</button></a>
+        <a href="tukenmezkalem.php"><button class="button button5">Tükenmez Kalem</button></a>
+        <a href="rotring.php"><button class="button button6">Rotring Mekanik Uçlu Kalem</button></a>
+        <a href="tombow.php"><button class="button button7">Tombow Mekanik Uçlu Kalem</button></a>
+        <a href="faber.php"><button class="button button8">Faber Castell Mekanik Uçlu Kalem</button></a>
+        <a href="micro.php"><button class="button button9">Micro Mekanik Uçlu Kalem</button></a>
+          <br>
+          <hr>
+        <a href="fodforlukalem.php"><button class="button button10">Fosforlu Kalem</button></a>
+        <a href="kecelikalem.php"><button class="button button1">Keçeli Kalem</button></a>
+        <a href="jelkalem.php"><button class="button button2">Jel Mürekkep Kalem</button></a>
+          <br>
+          <hr>
+        <a href="kalemucu.php"><button class="button button3">Mekanik Kalem Ucu</button></a>
+        <a href="silgi.php"><button class="button button4">Silgi</button></a>
+        <a href="postit.php"><button class="button button5">Post-it</button></a>
+          <br>
+          <hr>
+        <a href="resimmalzemeleri.php"><button class="button button6">Resim Malzemeleri</button></a>
+
+
+
 </div>
 
 
